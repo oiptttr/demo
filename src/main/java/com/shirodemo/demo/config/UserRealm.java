@@ -31,6 +31,7 @@ public class UserRealm extends AuthorizingRealm {
 
         System.out.println("执行了授权");
         System.out.println("git提交");
+        System.out.println("git提交 hot");
         return info;
     }
 
