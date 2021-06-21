@@ -30,6 +30,7 @@ public class UserRealm extends AuthorizingRealm {
         info.addStringPermission(currentUser.getPerms());
 
         System.out.println("执行了授权");
+        System.out.println("git提交");
         return info;
     }
 
